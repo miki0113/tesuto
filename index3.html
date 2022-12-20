@@ -1,0 +1,80 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<style>
+li#A{display:inline;padding-left:10px;padding-right:10px;}
+li#A a{text-decoration:none;}
+li#A a:hover{font-style:italic;}
+
+li#B{float:left;width:120px;border:solid 1px #3c3c3c;background:#c3c3c3;}
+li#B a{text-decoration:none;display:block;}
+li#B a:hover{background:#f3f3f3;} 
+
+#top{width:700px;background:#82cab1;padding:10px;}
+#menu{width:720px;background:#c2ddc9;}
+#contents{width:700px;background:#f1f1f1;padding:10px;}
+#footer{width:710px;background:#82cab1;padding:5px;}
+</style>
+</head>
+
+<body>
+<div id="top">
+<p style="margin:0;">○○ラジオ　まとめ</p>
+</div>
+
+
+
+<div id="contents">
+<p style="margin:0;">2月1日放送</p>
+<p style="margin:0;" align="right">私の好きな音楽やラジオが好きになったきっかけを話しました。</p>
+<p style="margin:0;">使用楽曲</p>
+<style>
+  table#tb1{margin:0;
+    border:1px solid #ff8844;
+    border-collapse:collapse;
+  }
+  table#tb1 td{height:50px;width:210px;
+    border:1px solid #ff8844;
+    text-align:center; background:#94e68a;
+  }
+  table#tb1 th{height:50px;width:100px;
+    border:1px solid #ff8844;
+    text-align:center; background:#8ae6c5;
+  }
+</style>
+<table id="tb1">
+  <tr><th>番号</th><th>曲名</th><th>アーティスト</th></tr>
+  <tr><td>①</td><td>赤い風船とメリーゴーランド</td><td>甘茶の音楽工房（フリー音源）</td></tr>
+  <tr><td>②</td><td>月の小舟</td><td>甘茶の音楽工房（フリー音源）</td></tr>
+  <tr><td>③</td><td></td><td></td>
+</table>
+<p style="margin:0;">コメント</p>
+<form method="GET" action="result.html">
+<div>
+  性別<br>
+  <input type="radio" name="first" value="yes" checked>女性
+  <input type="radio" name="first" value="no" >男性
+</div>
+<div>
+  年齢<br>
+  <input type="text" name="subject" value="１０歳">
+</div>
+<div>
+  コメントの具体的な内容<br>
+  <textarea name="message"></textarea>
+</div>
+<input type="submit" id="title" name="submit" value="送信">
+</form>
+</div> 
+
+<div id="footer">
+<ul style="margin:0;padding:0;width:720px;text-align:center;">
+<li id="A"><a href="page1.html">←前</a></li>
+<li id="A"><a href="page2.html">次→</a></li>
+</ul>
+<p style="margin:0;">フッター</p>
+</div>
+
+</body>
+</html>
